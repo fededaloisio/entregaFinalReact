@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_APIKEY ,
-  authDomain: import.meta.env.VITE_AUTHDOMAIN,
+  apiKey: import.meta.env.VITE_APIK,
+  authDomain: import.meta.env.VITE_AUTH,
   projectId: import.meta.env.VITE_PROJECT,
-  storageBucket: import.meta.env.VITE_STORAGE,
-  messagingSenderId: import.meta.env.VITE_MESSAGING,
-  appId: import.meta.env.VITE_APPID
+  storageBucket: import.meta.env.VITE_STO,
+  messagingSenderId: import.meta.env.VITE_MS,
+  appId: import.meta.env.VITE_APP
 };
 
 
