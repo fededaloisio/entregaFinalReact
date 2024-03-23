@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 90px 0 0 0;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.container form input {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 19px;
+    border: none;
+}
+
+input:focus {
+    outline: 3px solid #009688;
+}
+
+/* ---------------------- */
+
+.containerPostCompra {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    height: 250px;
+    margin: 30px 100px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.containerPostCompra h2 {
+    margin-bottom: 15px;
+}
+
+.containerDatos {
+    display: flex;
+}
+
+.containerDatos h3 {
+    margin: 15px 50px 0 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}

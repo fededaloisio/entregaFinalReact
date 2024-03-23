@@ -1,0 +1,40 @@
+.productContainer {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center; 
+    max-width: 300px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.productImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.productTitle {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.productPrice {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #009688;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #00796b;
+}

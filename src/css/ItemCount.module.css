@@ -1,0 +1,40 @@
+.counterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .counterButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counterButton:hover {
+    background-color: #00796b;
+  }
+  
+  .counterDisplay {
+    font-size: 24px;
+  }
+
+  .addCarrito {
+    padding: 10px 20px;
+    border: none;
+    background-color: #009688;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease
+}
+
+.addCarrito:hover {
+    background-color: #00796b; 
+}
